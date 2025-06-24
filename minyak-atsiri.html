@@ -1,446 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Welcome!!</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
 
-  <body id="page-top">
-    <!-- Top Header Section -->
-    <div class="bg-light py-3 border-bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Logo Section -->
-          <div class="col-lg-8 col-md-6">
-                    <div class="logo-container">
-                        <!-- Indo Essential Oils Logo -->
-                        <div class="logo-circle bg-warning">
-                            <i class="fas fa-tint text-white fs-2"></i>
-                        </div>
-                        <div class="logo-text me-3">
-                            <h5 class="text-success fw-bold">INDO</h5>
-                            <h5 class="text-success fw-bold">ESSENTIAL</h5>
-                            <small class="text-muted">OILS DATABASE</small>
-                        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Welcome!!</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+</head>
 
-                        <!-- Visual Divider -->
-                        <div class="logo-divider d-none d-lg-block"></div>
-
-                        <!-- Kementerian Logo - Already includes text -->
-                        <img src="./assets/logo.png" 
-                             alt="Logo Kementerian Perindustrian Republik Indonesia" 
-                             class="kementerian-logo-full" />
-                    </div>
-                </div>
-
-          <!-- Search Section -->
-          <div class="col-lg-4 col-md-6">
-            <div class="d-flex gap-2">
-              <form action="" class="d-flex align-items-center w-100">
-                <input
-                  type="text"
-                  class="form-control me-2"
-                  placeholder="Search website ..."
-                />
-                <input
-                  type="text"
-                  class="form-control me-2"
-                  placeholder="Search here..."
-                />
-                <button class="btn btn-success btn-sm">
-                  <i class="fas fa-search"></i>
-                </button>
-              </form>
+<body id="page-top">
+  <!-- Top Header Section -->
+  <div class="bg-light py-3 border-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Logo Section -->
+        <div class="col-lg-8 col-md-6">
+          <div class="logo-container">
+            <!-- Indo Essential Oils Logo -->
+            <div class="logo-circle bg-warning">
+              <i class="fas fa-tint text-white fs-2"></i>
             </div>
+            <div class="logo-text me-3">
+              <h5 class="text-success fw-bold">INDO</h5>
+              <h5 class="text-success fw-bold">ESSENTIAL</h5>
+              <small class="text-muted">OILS DATABASE</small>
+            </div>
+
+            <!-- Visual Divider -->
+            <div class="logo-divider d-none d-lg-block"></div>
+
+            <!-- Kementerian Logo - Already includes text -->
+            <img src="./assets/logo.png" alt="Logo Kementerian Perindustrian Republik Indonesia"
+              class="kementerian-logo-full" />
+          </div>
+        </div>
+
+        <!-- Search Section -->
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex gap-2">
+            <form action="" class="d-flex align-items-center w-100">
+              <input type="text" class="form-control me-2" placeholder="Search website ..." />
+              <input type="text" class="form-control me-2" placeholder="Search here..." />
+              <button class="btn btn-success btn-sm">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Navigation Bar -->
-    <nav class="green navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link px-3" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  px-3 active" href="/minyak-atsiri.html"
-                >Minyak Atsiri</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  px-3" href="#industri">Industri</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  px-3" href="#news"
-                >News & Article</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  px-3" href="#contributor"
-                >Open Contributor</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  px-3" href="/login.html">Login</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Navigation Bar -->
+  <nav class="green navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  px-3 active" href="/minyak-atsiri.html">Minyak Atsiri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#industri">Industri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  px-3" href="#news">News & Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  px-3" href="#contributor">Open Contributor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 " href="/login.html">Login</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Masthead-->
-    <header
-      class="masthead bg-primary text-white text-center"
-      style="
-        background-image: url('./assets/indonesia.jpg');
-        background-size: cover;
-        background-position: center;
-      "
-    >
-      <div class="container d-flex align-items-center flex-column"></div>
-    </header>
-    <!-- News section-->
-    <section class="page-section portfolio" id="portfolio">
-      <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-start text-secondary mb-4">
-          Berita Industri
-        </h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-3 mb-5">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+    </div>
+  </nav>
+  <p class="ms-3 my-3">Home Page > Minyak Atsiri</p>
+  <!-- News section-->
+  <div class="container">
+    <div class="map" id="map"></div>
+  </div>
+  <section class="page-section portfolio" id="portfolio">
+  </section>
+  <!-- Footer-->
+  <footer class="green footer text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Footer Location-->
+        <div class="col-lg-3 col-md-12 mb-5 mb-lg-0">
+          <div class="d-flex align-items-center justify-content-start">
+            <div class="me-3">
+              <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 60px; height: 60px">
+                <i class="fas fa-tint text-white fs-2"></i>
               </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-5">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+            <div class="me-4">
+              <h5 class="mb-0 text-white-50 fw-bold">INDO</h5>
+              <h5 class="mb-0 text-white-50 fw-bold">ESSENTIAL</h5>
+              <small class="text-white-50">OILS DATABASE</small>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-start text-secondary mb-4">
-              Kegiatan
-            </h2>
-            <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <!-- Footer navigations-->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="row">
+            <!-- Navigasi -->
+            <div class="col-md-12 col-lg-4 mb-4">
+              <h6 class="text-uppercase mb-2 text-white text-start">
+                Navigasi
+              </h6>
+              <ul class="mb-0 text-start list-unstyled">
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#home">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#minyak-atsiri">Minyak Atsiri</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#industri">Penyulingan</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#news">Artikel</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#contributor">Kontributor</a>
+                </li>
+              </ul>
             </div>
-            <div class="row d-flex justify-content-start">
-              <div class="col-md-12 text-cente">
-                <a class="btn btn-secondary btn-l text-uppercase mb-4" href="#!"
-                  >Selengkapnya</a
-                >
-              </div>
+
+            <!-- Kontak Kami 1 -->
+            <div class="col-md-12 col-lg-4 mb-4">
+              <h6 class="text-uppercase mb-2 text-white text-start">
+                Kontak Kami
+              </h6>
+              <ul class="mb-0 text-start list-unstyled">
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">Kementerian Perindustrian</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none text-wrap text-start" href="#">Direktorat
+                    Jenderal Industri Agro</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">Dewan Atsiri Indonesia (DAI)</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">Peraturan Terkait</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">Peta IG</a>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-start text-secondary mb-4">
-              Artikel
-            </h2>
-            <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-6 mb-5">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-start">
-              <div class="col-md-12 text-cente">
-                <a class="btn btn-secondary btn-l text-uppercase" href="#!"
-                  >Selengkapnya</a
-                >
+
+            <!-- Kontak Kami 2 + Media Sosial -->
+            <div class="col-md-12 col-lg-4 mb-4">
+              <h6 class="text-uppercase mb-2 text-white text-start">
+                Kontak Kami
+              </h6>
+              <ul class="mb-4 text-start list-unstyled">
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">info@essentialoils.id</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">+62-31-1234567</a>
+                </li>
+                <li class="mb-1">
+                  <a class="text-white text-decoration-none" href="#">JL Gatot Subroto, Kav. XX</a>
+                </li>
+              </ul>
+              <h6 class="text-uppercase mb-2 text-white text-start">
+                Media Sosial
+              </h6>
+              <div class="text-start">
+                <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="green footer text-center">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-3 col-md-12 mb-5 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-start">
-              <div class="me-3">
-                <div
-                  class="bg-warning rounded-circle d-flex align-items-center justify-content-center"
-                  style="width: 60px; height: 60px"
-                >
-                  <i class="fas fa-tint text-white fs-2"></i>
-                </div>
-              </div>
-              <div class="me-4">
-                <h5 class="mb-0 text-white-50 fw-bold">INDO</h5>
-                <h5 class="mb-0 text-white-50 fw-bold">ESSENTIAL</h5>
-                <small class="text-white-50">OILS DATABASE</small>
-              </div>
-            </div>
-          </div>
-          <!-- Footer navigations-->
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <div class="row">
-              <!-- Navigasi -->
-              <div class="col-md-12 col-lg-4 mb-4">
-                <h6 class="text-uppercase mb-2 text-white text-start">
-                  Navigasi
-                </h6>
-                <ul class="mb-0 text-start list-unstyled">
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#home"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a
-                      class="text-white text-decoration-none"
-                      href="#minyak-atsiri"
-                      >Minyak Atsiri</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#industri"
-                      >Penyulingan</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#news"
-                      >Artikel</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a
-                      class="text-white text-decoration-none"
-                      href="#contributor"
-                      >Kontributor</a
-                    >
-                  </li>
-                </ul>
-              </div>
 
-              <!-- Kontak Kami 1 -->
-              <div class="col-md-12 col-lg-4 mb-4">
-                <h6 class="text-uppercase mb-2 text-white text-start">
-                  Kontak Kami
-                </h6>
-                <ul class="mb-0 text-start list-unstyled">
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >Kementerian Perindustrian</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a
-                      class="text-white text-decoration-none text-wrap text-start"
-                      href="#"
-                      >Direktorat Jenderal Industri Agro</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >Dewan Atsiri Indonesia (DAI)</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >Peraturan Terkait</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >Peta IG</a
-                    >
-                  </li>
-                </ul>
-              </div>
+        <!-- Footer About Text-->
+        <div class="col-lg-3 col-md-12 mb-5 mb-lg-0">
+          <div class="logo-container">
+            <div class="logo-divider d-none d-lg-block"></div>
 
-              <!-- Kontak Kami 2 + Media Sosial -->
-              <div class="col-md-12 col-lg-4 mb-4">
-                <h6 class="text-uppercase mb-2 text-white text-start">
-                  Kontak Kami
-                </h6>
-                <ul class="mb-4 text-start list-unstyled">
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >info@essentialoils.id</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >+62-31-1234567</a
-                    >
-                  </li>
-                  <li class="mb-1">
-                    <a class="text-white text-decoration-none" href="#"
-                      >JL Gatot Subroto, Kav. XX</a
-                    >
-                  </li>
-                </ul>
-                <h6 class="text-uppercase mb-2 text-white text-start">
-                  Media Sosial
-                </h6>
-                <div class="text-start">
-                  <a class="btn btn-outline-light btn-social mx-1" href="#"
-                    ><i class="fab fa-fw fa-instagram"></i
-                  ></a>
-                  <a class="btn btn-outline-light btn-social mx-1" href="#"
-                    ><i class="fab fa-fw fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-outline-light btn-social mx-1" href="#"
-                    ><i class="fab fa-fw fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Footer About Text-->
-          <div class="col-lg-3 col-md-12 mb-5 mb-lg-0">
-             <div class="logo-container">
-                        <div class="logo-divider d-none d-lg-block"></div>
-
-                        <!-- Kementerian Logo - Already includes text -->
-                        <img src="./assets/logo.png" 
-                             alt="Logo Kementerian Perindustrian Republik Indonesia" 
-                             class="kementerian-logo-full" />
-                    </div>
-                </div>
+            <!-- Kementerian Logo - Already includes text -->
+            <img src="./assets/logo.png" alt="Logo Kementerian Perindustrian Republik Indonesia"
+              class="kementerian-logo-full" />
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  </body>
+    </div>
+    </div>
+  </footer>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script>
+  (async () => {
+    const topology = await fetch(
+      'https://code.highcharts.com/mapdata/countries/id/id-all.topo.json'
+    ).then(response => response.json());
+
+    // Data dengan nama provinsi dan tanaman
+     const data = [
+        ['id-3700', 'DKI Jakarta', ['Cengkeh', 'Nilam']],
+        ['id-ac', 'Aceh', ['Sereh', 'Jahe']],
+        ['id-jt', 'Jawa Tengah', ['Kemenyan', 'Kayu Manis']],
+        ['id-be', 'Bengkulu', ['Bunga Lawang', 'Pala']],
+        ['id-bt', 'Banten', ['Kencur', 'Temulawak']],
+        ['id-kb', 'Kalimantan Barat', ['Daun Pandan', 'Sereh Wangi']],
+        ['id-bb', 'Bangka Belitung', ['Kumis Kucing', 'Basil']],
+        ['id-ba', 'Bali', ['Kelor', 'Sambiloto']],
+        ['id-ji', 'Jawa Timur', ['Lemon', 'Jeruk Nipis']],
+        ['id-ks', 'Kalimantan Selatan', ['Bunga Melati', 'Daun Mint']],
+        ['id-nt', 'Nusa Tenggara Timur', ['Kunyit', 'Lidah Buaya']],
+        ['id-se', 'Sulawesi Selatan', ['Bunga Mawar', 'Daun Kemangi']],
+        ['id-kr', 'Kepulauan Riau', ['Cinnamon', 'Vanilla']],
+        ['id-ib', 'Papua Barat', ['Rosemary', 'Thyme']],
+        ['id-su', 'Sumatera Utara', ['Peppermint', 'Sage']],
+        ['id-ri', 'Riau', ['Ginger', 'Turmeric']],
+        ['id-sw', 'Sulawesi Utara', ['Clove', 'Nutmeg']],
+        ['id-ku', 'Kalimantan Utara', ['Fennel', 'Coriander']],
+        ['id-la', 'Lampung', ['Cardamom', 'Anise']],
+        ['id-sb', 'Sumatera Barat', ['Basil', 'Oregano']],
+        ['id-ma', 'Maluku', ['Chili', 'Garlic']],
+        ['id-nb', 'Nusa Tenggara Barat', ['Onion', 'Shallot']],
+        ['id-sg', 'Sulawesi Tenggara', ['Lemongrass', 'Coriander']],
+        ['id-st', 'Sulawesi Tengah', ['Bitter Melon', 'Bitter Leaf']],
+        ['id-pa', 'Papua', ['Coriander', 'Parsley']],
+        ['id-jr', 'Jawa Barat', ['Chili', 'Pepper']],
+        ['id-ki', 'Kalimantan Timur', ['Cinnamon', 'Clove']],
+        ['id-1024', 'Kalimantan Tengah', ['Ginger', 'Garlic']],
+        ['id-jk', 'Jakarta', ['Turmeric', 'Coriander']],
+        ['id-go', 'Gorontalo', ['Basil', 'Thyme']],
+        ['id-yo', 'Yogyakarta', ['Mint', 'Sage']],
+        ['id-sl', 'Sumatera Selatan', ['Lemongrass', 'Ginger']],
+        ['id-sr', 'Sulawesi Barat', ['Cinnamon', 'Nutmeg']],
+        ['id-ja', 'Jambi', ['Clove', 'Cardamom']],
+        ['id-kt', 'Kalimantan Selatan', ['Basil', 'Oregano']]
+      ];
+
+    // Transformasi data untuk Highcharts
+    const mapData = data.map(item => ({
+      'hc-key': item[0],
+      name: item[1],
+      value: item[2].length, // Nilai untuk pewarnaan
+      plants: item[2].join(', ') // Convert array to string for display
+    }));
+
+    // Buat chart
+    Highcharts.mapChart('map', {
+      chart: {
+        map: topology,
+        backgroundColor: '#f8f9fa'
+      },
+      title: {
+        text: 'Peta Tanaman Minyak Atsiri Indonesia',
+        style: {
+          fontSize: '18px',
+          fontWeight: 'bold',
+          color: '#333'
+        }
+      },
+      subtitle: {
+        text: 'Hover pada provinsi untuk melihat detail tanaman',
+        style: {
+          fontSize: '14px',
+          color: '#666'
+        }
+      },
+      legend: {
+        enabled: false
+      },
+      mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+          verticalAlign: 'bottom'
+        }
+      },
+      colorAxis: {
+        min: 0,
+        max: 2,
+        stops: [
+          [0, '#e0e0e0'],
+          [1, '#e0e0e0']
+        ]
+      },
+      series: [{
+        data: mapData,
+        name: 'Tanaman Minyak Atsiri',
+        borderColor: '#ffffff',
+        borderWidth: 1,
+        states: {
+          hover: {
+            color: '#28a745',
+            borderColor: '#ffffff',
+            borderWidth: 2
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        tooltip: {
+          headerFormat: '<span style="font-size: 14px"><b>{point.name}</b></span><br/>',
+          pointFormat: '<span style="font-size: 12px">Tanaman: {point.plants}</span>',
+          useHTML: true,
+          style: {
+            padding: '10px'
+          }
+        }
+      }]
+    });
+  })();
+</script>
+
+</body>
+
 </html>
